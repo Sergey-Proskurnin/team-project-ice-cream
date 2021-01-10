@@ -1,4 +1,4 @@
-$(function() {
+(function() {
   var body = $('#starshine'),
       template = $('.template.shine'),
       stars =  50,
