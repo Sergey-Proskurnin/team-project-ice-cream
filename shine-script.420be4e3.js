@@ -118,7 +118,7 @@ parcelRequire = (function (modules, cache, entry, globalName) {
 
   return newRequire;
 })({"js/shine-script.js":[function(require,module,exports) {
-$(function () {
+(function () {
   var body = $('#starshine'),
       template = $('.template.shine'),
       stars = 50,
@@ -174,7 +174,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "52436" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "54140" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};
